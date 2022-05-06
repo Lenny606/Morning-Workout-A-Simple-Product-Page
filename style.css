@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+
+.product__title,
+.product__text {
+    position: relative;
+    top: 200px;
+    right: 0px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: rgb(250, 235, 215, 0.5);
+
+    word-wrap: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+}
+
+.product__img {
+    position: absolute;
+    right: 300px;
+    bottom: 0px;
+    width: 20%;
+
+    border: solid;
+    border-color: rgb(250, 235, 215, 0.5);
+
+}
+
+body {
+    width: 800px;
+    height: 800px;
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 64, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
